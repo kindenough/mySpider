@@ -7,4 +7,5 @@ print(dirpath)
 # 添加环境变量
 sys.path.append(dirpath)
 # 启动爬虫,第三个参数为爬虫name
+#execute(['scrapy','crawl','itcast','-o teachers.csv'])
 execute(['scrapy','crawl','itcast'])
