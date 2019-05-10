@@ -7,7 +7,8 @@ from mySpider.items import ItcastItem
 class ItcastSpider(scrapy.Spider):
     name = 'itcast'
     allowed_domains = ['itcast.cn']
-    start_urls = ['http://www.itcast.cn/channel/teacher.shtml']
+    # start_urls = ['http://www.itcast.cn/channel/teacher.shtml']
+    start_urls = ['http://news.baidu.com/']
 
     def parse(self, response):
         # filename="teacher.html"
